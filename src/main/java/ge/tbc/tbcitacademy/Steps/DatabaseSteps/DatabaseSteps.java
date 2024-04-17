@@ -8,15 +8,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseSteps {
-    public ResultSet returnRegistrationData(){
-        ResultSet set;
-        try (Connection connection = MSSQLConnection.connect()){
+    public ResultSet returnRegistrationData(Connection connection){
+        try {
             String SQLCommand = "SELECT * FROM RegistrationData";
             Statement statement = connection.createStatement();
-            set = statement.executeQuery(SQLCommand);
+            ResultSet set = statement.executeQuery(SQLCommand);
+            return set;
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        return set;
     }
 }

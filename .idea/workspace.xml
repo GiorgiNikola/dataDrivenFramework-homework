@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29d6093-9e7b-4434-b70e-cb2bb1802cf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b/storage_v2/_src_/database/master.YiqNvw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ge/tbc/tbcitacademy/Tests/DatabaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ge/tbc/tbcitacademy/Tests/DatabaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ge/tbc/tbcitacademy/Tests/DatabaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ge/tbc/tbcitacademy/Tests/DatabaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +122,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.DatabaseTests.techCanvassTest" />
-        <item itemvalue="TestNG.DatabaseTests" />
         <item itemvalue="TestNG.DatabaseTests.testDb" />
+        <item itemvalue="TestNG.DatabaseTests" />
       </list>
     </recent_temporary>
   </component>
