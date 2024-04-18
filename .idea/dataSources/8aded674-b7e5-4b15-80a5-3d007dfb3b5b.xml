@@ -16866,8 +16866,8 @@
     </schema>
     <schema id="5569" parent="5514" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-04-16.20:12:51.820</IntrospectionTimestamp>
-      <LastIntrospectionLocalTimestamp>2024-04-16.12:12:51</LastIntrospectionLocalTimestamp>
+      <IntrospectionTimestamp>2024-04-18.03:30:20.640</IntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-04-17.19:30:20</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5570" parent="5514" name="guest">
@@ -16876,56 +16876,99 @@
     <schema id="5571" parent="5514" name="sys">
       <ObjectId>4</ObjectId>
     </schema>
-    <table id="5572" parent="5569" name="RegistrationData">
+    <table id="5572" parent="5569" name="Phones">
+      <CreatedTimestamp>2024-04-18.03:30:11.117</CreatedTimestamp>
+      <DataRetentionPeriod>-1</DataRetentionPeriod>
+      <ModifiedTimestamp>2024-04-18.03:30:11.117</ModifiedTimestamp>
+      <ObjectId>18099105</ObjectId>
+      <LedgerViewId>0</LedgerViewId>
+      <LobDataSpaceId>0</LobDataSpaceId>
+    </table>
+    <table id="5573" parent="5569" name="RegistrationData">
       <CreatedTimestamp>2024-04-16.19:59:48.727</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-04-16.19:59:48.727</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-04-18.03:30:11.120</ModifiedTimestamp>
       <ObjectId>885578193</ObjectId>
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <column id="5573" parent="5572" name="id">
+    <column id="5574" parent="5572" name="phoneNumber">
+      <DasType>varchar(20 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="5575" parent="5572" name="ownerId">
+      <DasType>int|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="5576" parent="5572" name="FK__Phones__ownerId__02FC7413">
+      <ColNames>ownerId</ColNames>
+      <CreatedTimestamp>2024-04-18.03:30:11.120</CreatedTimestamp>
+      <ModifiedTimestamp>2024-04-18.03:30:11.120</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>50099219</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefTableName>RegistrationData</RefTableName>
+    </foreign-key>
+    <index id="5577" parent="5572" name="PK__Phones__4849DA00D6C950FC">
+      <Clustering>1</Clustering>
+      <ColNames>phoneNumber</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <key id="5578" parent="5572" name="PK__Phones__4849DA00D6C950FC">
+      <CreatedTimestamp>2024-04-18.03:30:11.120</CreatedTimestamp>
+      <ModifiedTimestamp>2024-04-18.03:30:11.120</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>34099162</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__Phones__4849DA00D6C950FC</UnderlyingIndexName>
+    </key>
+    <column id="5579" parent="5573" name="id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5574" parent="5572" name="firstName">
+    <column id="5580" parent="5573" name="firstName">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="5575" parent="5572" name="lastName">
+    <column id="5581" parent="5573" name="lastName">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="5576" parent="5572" name="gender">
+    <column id="5582" parent="5573" name="gender">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="5577" parent="5572" name="model">
+    <column id="5583" parent="5573" name="model">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="5578" parent="5572" name="address1">
+    <column id="5584" parent="5573" name="address1">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="5579" parent="5572" name="address2">
+    <column id="5585" parent="5573" name="address2">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="5580" parent="5572" name="city">
+    <column id="5586" parent="5573" name="city">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="5581" parent="5572" name="contact1">
+    <column id="5587" parent="5573" name="contact1">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="5582" parent="5572" name="contact2">
+    <column id="5588" parent="5573" name="contact2">
       <DasType>varchar(50 char)|0s</DasType>
       <Position>10</Position>
     </column>
-    <index id="5583" parent="5572" name="PK__Registra__3213E83F223EDDFD">
+    <index id="5589" parent="5573" name="PK__Registra__3213E83F223EDDFD">
       <Clustering>1</Clustering>
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
@@ -16933,7 +16976,7 @@
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5584" parent="5572" name="PK__Registra__3213E83F223EDDFD">
+    <key id="5590" parent="5573" name="PK__Registra__3213E83F223EDDFD">
       <CreatedTimestamp>2024-04-16.19:59:48.727</CreatedTimestamp>
       <ModifiedTimestamp>2024-04-16.19:59:48.727</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -16941,7 +16984,11 @@
       <Primary>1</Primary>
       <UnderlyingIndexName>PK__Registra__3213E83F223EDDFD</UnderlyingIndexName>
     </key>
-    <partition id="5585" parent="5583">
+    <partition id="5591" parent="5577">
+      <ObjectId>72057594043236352</ObjectId>
+      <Position>1</Position>
+    </partition>
+    <partition id="5592" parent="5589">
       <ObjectId>72057594043170816</ObjectId>
       <Position>1</Position>
     </partition>

@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29d6093-9e7b-4434-b70e-cb2bb1802cf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b/storage_v2/_src_/database/master.YiqNvw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8aded674-b7e5-4b15-80a5-3d007dfb3b5b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ge/tbc/tbcitacademy/Data/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ge/tbc/tbcitacademy/Data/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ge/tbc/tbcitacademy/Tests/DatabaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ge/tbc/tbcitacademy/Tests/DatabaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ge/tbc/tbcitacademy/Data/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ge/tbc/tbcitacademy/Data/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ge/tbc/tbcitacademy/Steps/DatabaseSteps/DatabaseSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ge/tbc/tbcitacademy/Tests/DatabaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ge/tbc/tbcitacademy/Tests/DatabaseTests.class" afterDir="false" />
     </list>
@@ -45,11 +44,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.DatabaseTests.autoCommitTests.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DatabaseTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatabaseTests.printRegistrationData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatabaseTests.querying.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DatabaseTests.techCanvassTest (1).executor&quot;: &quot;Debug&quot;,
     &quot;TestNG.DatabaseTests.techCanvassTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DatabaseTests.testDb.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;DB__gettingStarted&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;JDBC__Querying&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,8 +67,8 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DatabaseTests.techCanvassTest">
-    <configuration name="DatabaseTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DatabaseTests.autoCommitTests">
+    <configuration name="DatabaseTests.autoCommitTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dataDrivenFramework-homework" />
       <extension name="coverage">
         <pattern>
@@ -76,7 +78,44 @@
       </extension>
       <option name="PACKAGE_NAME" value="ge.tbc.tbcitacademy.Tests" />
       <option name="MAIN_CLASS_NAME" value="ge.tbc.tbcitacademy.Tests.DatabaseTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="autoCommitTests" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTests.printRegistrationData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dataDrivenFramework-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.tbc.tbcitacademy.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.tbc.tbcitacademy.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.tbcitacademy.Tests.DatabaseTests" />
+      <option name="METHOD_NAME" value="printRegistrationData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTests.querying" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dataDrivenFramework-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.tbc.tbcitacademy.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.tbc.tbcitacademy.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.tbcitacademy.Tests.DatabaseTests" />
+      <option name="METHOD_NAME" value="querying" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,9 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DatabaseTests.autoCommitTests" />
+        <item itemvalue="TestNG.DatabaseTests.printRegistrationData" />
+        <item itemvalue="TestNG.DatabaseTests.querying" />
         <item itemvalue="TestNG.DatabaseTests.techCanvassTest" />
         <item itemvalue="TestNG.DatabaseTests.testDb" />
-        <item itemvalue="TestNG.DatabaseTests" />
       </list>
     </recent_temporary>
   </component>
