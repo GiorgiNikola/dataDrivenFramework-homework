@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b29d6093-9e7b-4434-b70e-cb2bb1802cf9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2f67QhhkeWSmV2c2AHIwh3f75w8" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.DatabaseTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatabaseTests.techCanvassTest (1).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.DatabaseTests.techCanvassTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DatabaseTests.testDb.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DB__gettingStarted&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.DatabaseTests.techCanvassTest">
+    <configuration name="DatabaseTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dataDrivenFramework-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.tbc.tbcitacademy.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.tbc.tbcitacademy.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.tbcitacademy.Tests.DatabaseTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTests.techCanvassTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dataDrivenFramework-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.tbc.tbcitacademy.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.tbc.tbcitacademy.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.tbcitacademy.Tests.DatabaseTests" />
+      <option name="METHOD_NAME" value="techCanvassTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTests.testDb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dataDrivenFramework-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.tbc.tbcitacademy.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ge.tbc.tbcitacademy.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.tbcitacademy.Tests.DatabaseTests" />
+      <option name="METHOD_NAME" value="testDb" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DatabaseTests.techCanvassTest" />
+        <item itemvalue="TestNG.DatabaseTests" />
+        <item itemvalue="TestNG.DatabaseTests.testDb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b29d6093-9e7b-4434-b70e-cb2bb1802cf9" name="Changes" comment="" />
+      <created>1713109659352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713109659352</updated>
+      <workItem from="1713109661514" duration="8000" />
+      <workItem from="1713109693025" duration="5000" />
+      <workItem from="1713109717882" duration="5000" />
+      <workItem from="1713109747813" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
